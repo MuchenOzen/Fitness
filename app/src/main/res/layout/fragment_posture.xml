@@ -2,13 +2,13 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="orozdevelopment.fitness.PostureFragment">
+             tools:context=".posture.PostureFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="posture"/>
+        android:text="posture. press fab for a test notification"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -17,5 +17,12 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         android:src="@drawable/ic_add_white_24px"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="press here to change settings"
+        android:id="@+id/settingsButton"
+        android:layout_gravity="center"/>
 
 </FrameLayout>

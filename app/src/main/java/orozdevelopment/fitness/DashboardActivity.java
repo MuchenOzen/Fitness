@@ -10,10 +10,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import orozdevelopment.fitness.posture.PostureFragment;
 import orozdevelopment.fitness.weight_tracking.WeightTrackingFragment;
 
 public class DashboardActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    public static final String FRAGMENT_ID = "FRAGMENT_ID";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
